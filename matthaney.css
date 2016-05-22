@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 /* CSS RESET
 ------------------------------------------------ */
@@ -39,7 +39,7 @@ h6,
 h1 {
 	font-size: 2.5em;
 	margin-bottom: .75em;
-	text-align: center
+	text-align: center;
 }        
 
 h2 {
@@ -68,24 +68,43 @@ p {
 p.photo {
     display: flex;
     align-items: center;
-    justify-content: center
-    
+    justify-content: center;
 }
 
 p.profilephoto {
     float: left;
-    padding: 5px 10px 5px 10px
+    padding: 5px 10px 5px 10px;
 }
 
 p.gmaps {
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 div.intro > p {
     text-indent: 2em;
     /* text-indent: each-line is not yet supported in browsers. */
+}
+
+table, th, td {
+    border: none;
+    border-collapse: collapse;
+    text-align: left;
+    vertical-align: bottom;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    text-indent: 2em;
+}
+
+th {
+    vertical-align: middle;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
 }
 
 /* link states */
@@ -132,17 +151,17 @@ a:hover.current {
     box-shadow: 0px 3px 9px #666666;
     font-family: Courier New;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
 }
 
 .nav a:link{
-    color:white
+    color:white;
 }
 
 .nav a:visited {
-    color:white
+    color:white;
 }
 
 .nav a:current {    
@@ -162,10 +181,10 @@ a:hover.current {
     font-family: Courier New;
     color: #e03b0f;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    cursor:pointer
+    cursor: pointer;
 }
 
 .nav a:hover.current {
@@ -181,10 +200,10 @@ a:hover.current {
     font-family: Courier New;
     color: #ffffff;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-    cursor:default
+    cursor: default;
 }
 
 /* Small Navigation Link States */
@@ -207,11 +226,11 @@ a:hover.current {
 }
 
 .navsmall a:link{
-    color:white
+    color: white;
 }
 
 .navsmall a:visited {
-    color:white
+    color: white;
 }
 
 .navsmall a:current {    
@@ -234,7 +253,7 @@ a:hover.current {
     font-size: 12px;
     padding: 6px 10px 6px 10px;
     text-decoration: none;
-    cursor:pointer
+    cursor: pointer;
 }
 
 .navsmall a:hover.current {
@@ -253,7 +272,7 @@ a:hover.current {
     font-size: 12px;
     padding: 6px 10px 6px 10px;
     text-decoration: none;
-    cursor:default
+    cursor: default;
 }
 
 /*

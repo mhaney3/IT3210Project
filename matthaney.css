@@ -71,6 +71,11 @@ p.photo {
     justify-content: center;
 }
 
+p.intro {
+    text-indent: 2em;
+    /* text-indent: each-line is not yet supported in browsers. */
+}
+
 p.profilephoto {
     float: left;
     padding: 5px 10px 5px 10px;

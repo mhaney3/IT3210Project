@@ -60,6 +60,11 @@ h4 {
     text-align: center;
 }
 
+div.intro > p {
+    text-indent: 2em;
+    /* text-indent: each-line is not yet supported in browsers. */
+}
+
 p {
 	margin: 0 0 .5em;
 	padding-right: 10px;
@@ -87,9 +92,75 @@ p.gmaps {
     justify-content: center;
 }
 
-div.intro > p {
-    text-indent: 2em;
-    /* text-indent: each-line is not yet supported in browsers. */
+section.menu {
+    float: left;
+    width: 70%;
+}
+
+section.order {
+    float: left;
+    width: auto;
+}
+
+section.endnav {
+    clear: both;
+}
+
+fieldset.textinput > p > label.field {
+    text-align: right;
+    float: left;
+    font-weight: bold;
+    width: 30%;
+}
+
+fieldset.textinput > p > input.textbox {
+    float: left;
+    width: auto;
+}
+
+fieldset.textinput > p {
+    clear: both;
+    padding: 1px;
+}
+
+fieldset.comment > textarea {
+    width: auto;
+    padding: 1px;
+}
+
+fieldset > p > label.left {
+    float: left;
+    width: 50%;
+    padding: 1px;
+}
+
+fieldset > p > label.right {
+    float: left;
+    width: auto;
+    padding: 1px;
+}
+
+fieldset.foodmenu > p {
+    font-weight: bold
+}
+
+form {
+     font-family: "Times New Roman", Times, serif;
+}
+
+form > fieldset > legend,
+form > fieldset > fieldset > legend {
+    color: #e03b0f;
+    font-weight: bold
+}
+
+div.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+footer {
+    clear: both;
 }
 
 table, th, td {
@@ -286,3 +357,11 @@ a:hover.current {
 
 /* CONTENT
 ---------------------------------------------- */
+
+/*
+    Some content written in the dead of night by an insomniac with a glass of wine.
+
+    ("\_/")
+    (=’.’=) This is Bunny. Copy and paste Bunny into your
+    (“)_(“) signature to help him gain world domination!
+*/

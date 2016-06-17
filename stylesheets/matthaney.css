@@ -12,7 +12,7 @@ body {
 	color: #1d3d76;
 	font: 100% "Trebuchet MS", Verdana, sans-serif;
 	padding-bottom: 20px;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
 }
 
 ul.nav { 
@@ -34,6 +34,12 @@ h6,
 .logo {
 	color: #e03b0f;
 	font-weight: bold;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Times New Roman";
 }
 
 h1 {
@@ -58,6 +64,11 @@ h3.critic {
 
 h4 {
     text-align: center;
+}
+
+h5 {
+    font-family: "consolas";
+    text-decoration: underline;
 }
 
 div.intro > p {
@@ -95,11 +106,51 @@ p.gmaps {
 section.menu {
     float: left;
     width: 70%;
+    overflow: auto;
 }
 
 section.order {
     float: left;
-    width: auto;
+    width: 27%;
+    padding: 0 1%;
+}
+
+@media screen and (max-width:1250px){
+    section.menu {
+        float: left;
+        width: 60%;
+    }
+    section.order {
+        float: left;
+        width: 37%;
+        padding: 0 1%;
+    }    
+}
+
+@media screen and (max-width:1050px){
+    section.menu {
+        float: left;
+        width: 55%;
+    }
+    section.order {
+        float: left;
+        width: 42%;
+        padding: 0 1%;
+    }    
+}
+
+@media screen and (max-width:950px){
+    section.menu {
+        float: left;
+        width: 100%;
+    }
+    section.order {
+        float: left;
+        width: 100%;
+        padding: 0 0;
+            
+    }
+    
 }
 
 section.endnav {
@@ -120,24 +171,24 @@ fieldset.textinput > p > input.textbox {
 
 fieldset.textinput > p {
     clear: both;
-    padding: 1px;
+    padding: 0 1px;
 }
 
 fieldset.comment > textarea {
     width: auto;
-    padding: 1px;
+    padding: 0 1px;
 }
 
 fieldset > p > label.left {
     float: left;
-    width: 50%;
-    padding: 1px;
+    width: 48%;
+    padding: 0 1%;
 }
 
 fieldset > p > label.right {
     float: left;
     width: auto;
-    padding: 1px;
+    padding: 0 1%;
 }
 
 fieldset.foodmenu > p {
@@ -181,6 +232,29 @@ th {
 
 tr:hover {
     background-color: #f5f5f5;
+}
+
+table > tbody > tr > td > p {
+    min-width: 300px;
+}
+
+/* IDs */
+
+#content {
+    padding: 2%;
+}
+
+#banner {
+    background-color: #f5f5f5;
+}
+
+#footer {
+    background-color: #f5f5f5;
+}
+
+#main {
+    overflow: auto;
+    background-color: white;
 }
 
 /* link states */

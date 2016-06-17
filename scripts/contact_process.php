@@ -22,17 +22,17 @@
 # You will want to configure the following variables to suit your needs
 
 	# This variable will be used if the destination_email variable is not set on the form.
-	$default_destination_email = "mhaney3@cepellauniversity.edu";
+	$default_destination_email = "your@emailaddress.here";
 
 	# The name of your website
-	$site_name = "Haney's IT3210 Project";
+	$site_name = "Your Website's Name";
 
 	# The default followup URL in case one isn't supplied on the form.
 	# your form I've supplied does have a link to the "thanks.html" document
-	$default_followup_url = "http://mhaney3.github.io/IT3210Project/menu.html";
+	$default_followup_url = "http://www.your site name.com/thanks.html";
 
 	# The value of this variable will be displayed if the followup_url is not specified.
-	$default_response = "Thank you for your order.<br>We will deliver your order as soon as possible";
+	$default_response = "Thank you for contacting us.<br>We will respond to your email as soon as possible";
 
 ################ YOU SHOULDN'T NEED TO EDIT ANYTHING BEYOND THIS POINT ################
 
